@@ -32,7 +32,7 @@
         </v-card-title>
         <v-data-table
           :headers="headers"
-          :items="dadosEmprestimos"
+          :items="items"
           :search="search"
           show-expand
           class="elevation-1"
@@ -70,7 +70,7 @@
                   v-else
                   class="ma-2"
                   label
-                  text-color="white"
+                  text-color="white"asdasdasdadsdasda
                   color="red"
                 >
                   Pendente
@@ -80,7 +80,7 @@
                     {{dadosEmprestimos.nome}}
                   </v-chip>
                   <v-chip>
-                    Autor: {{  JSON.stringify(item)  }}
+                    Autor: {{  JSON.stringify(item.dados)  }}
                   </v-chip>
                 </v-chip-group>
                 <v-divider class="mx-4"></v-divider>

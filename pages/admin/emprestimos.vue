@@ -70,7 +70,7 @@
                   v-else
                   class="ma-2"
                   label
-                  text-color="white"asdasdasdadsdasda
+                  text-color="white"
                   color="red"
                 >
                   Pendente
